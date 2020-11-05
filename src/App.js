@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Header from './Components/Header'
-import Navbar from './Components/Navbar'
-import Banner from './Components/Banner'
-import About from './Components/About'
-import Portfolio from './Components/Portfolio'
-import Contact from './Components/Contact'
+import Header from './Component/Header'
+import Navbar from './Component/Navbar'
+import Banner from './Component/Banner'
+import About from './Component/About'
+import Portfolio from './Component/Portfolio '
+import Contact from './Component/Contact'
 
 
 
