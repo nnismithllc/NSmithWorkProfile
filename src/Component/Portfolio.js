@@ -1,4 +1,4 @@
-import React from "react";
+import React,{Component} from "react";
 import {  MDBRow, MDBCol, MDBCardBody, MDBIcon, MDBBtn, MDBView, MDBMask } from "mdbreact";
 import BurgerPic from '../Component/public/images/Burger.JPG';
 import LandPic from '../Component/public/images/LandDegrees.JPG';
