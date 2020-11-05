@@ -1,10 +1,9 @@
 import React,{Component} from "react";
-import {  MDBRow, MDBCol, MDBCardBody, MDBIcon, MDBBtn, MDBView, MDBMask } from "mdbreact";
+import {MDBRow, MDBCol, MDBCardBody, MDBIcon, MDBBtn, MDBView, MDBMask } from "mdbreact";
 import BurgerPic from '../Component/public/images/Burger.JPG';
 import LandPic from '../Component/public/images/LandDegrees.JPG';
 import NotePic from '../Component/public/images/NoteTaker.JPG';
 import SnapPic from '../Component/public/images/snapbudget.JPG';
-
 
 
 class Portfolio extends Component {
@@ -21,10 +20,7 @@ class Portfolio extends Component {
         <MDBRow className="d-flex justify-content-center">
           <MDBCol md="6" xl="5" className="mb-4">
             <MDBView className="overlay rounded z-depth-2" waves>
-              <img
-                src={LandPic}
-                alt="LandDegree Image"
-                className="img-fluid"/>
+              <img src={LandPic} alt="LandDegree" className="img-fluid"/>
               <a href="https://nnismithllc.github.io/LandDegrees/">
                 <MDBMask overlay="white-slight" />
               </a>
@@ -48,10 +44,7 @@ class Portfolio extends Component {
           <MDBCol md="6" xl="5" className="mb-4">
             <MDBView className="overlay rounded z-depth-2" waves>
               <img
-                src= {BurgerPic}
-                alt="Burger Image"
-                className="img-fluid"
-              />
+                src= {BurgerPic} alt="Burger" className="img-fluid"/>
               <a href="https://burgermebabydelight.herokuapp.com/">
                 <MDBMask overlay="white-slight" />
               </a>
@@ -75,11 +68,7 @@ class Portfolio extends Component {
           </MDBCol>
           <MDBCol md="6" xl="5" className="mb-4">
             <MDBView className="overlay rounded z-depth-2" waves>
-              <img
-                src={NotePic}
-                alt="Note Taker Image"
-                className="img-fluid"
-              />
+              <img src={NotePic} alt="Note Taker" className="img-fluid" />
               <a href="https://notetak3r.herokuapp.com/">
                 <MDBMask overlay="white-slight" />
               </a>
@@ -103,16 +92,13 @@ class Portfolio extends Component {
           <MDBCol md="6" xl="5" className="mb-4">
             <MDBView className="overlay rounded z-depth-2" waves>
               <img
-                src={SnapPic}
-                alt="SnapBudget Image"
-                className="img-fluid"
-              />
+                src={SnapPic} alt="SnapBudget" className="img-fluid" />
               <a href="https://mysnapbudget.herokuapp.com/">
                 <MDBMask overlay="white-slight" />
               </a>
             </MDBView>
             <MDBCardBody className="pb-0">
-              <a href="#!" className="cyan-text">
+              <a href="https://github.com/WD40JS/project_2" className="cyan-text">
                 <h5 className="font-weight-bold mt-2 mb-3">
                   <MDBIcon icon="camera-retro" className="pr-2" />
                   Snap Budget

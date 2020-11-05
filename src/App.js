@@ -1,10 +1,9 @@
-import React from 'react';
-import './App.css';
+import React from "react";
 import Header from './Component/Header'
 import Navbar from './Component/Navbar'
 import Banner from './Component/Banner'
 import About from './Component/About'
-import Portfolio from './Component/Portfolio '
+import Portfolio from './Component/Portfolio'
 import Contact from './Component/Contact'
 
 
@@ -27,9 +26,7 @@ function App() {
       <h1 className="Portfolio"> My Portfolio</h1>
       <br/>
       <hr/>
-      <Project/>
-      <hr/>
-      <h1 id="contactnav" className="contact">Contact Me</h1>
+      <h1 id="Contactnav" className="contact">Contact Me</h1>
       <hr/>
       <Contact/>
 

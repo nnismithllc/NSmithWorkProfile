@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import tia from './public/images/Tia.jpg';
-import React, { Component } from "react";
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer} from "mdbreact";
 
 

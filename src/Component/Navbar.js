@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import { BrowserRouter } from 'react-router-dom';
-import { MDBNav, MDBNavLink, MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import React, {Component} from "react";
+import {BrowserRouter} from 'react-router-dom';
+import {MDBNav, MDBNavLink, MDBContainer, MDBRow, MDBCol} from "mdbreact";
 
 
 class Navbar extends Component {
@@ -13,10 +13,10 @@ class Navbar extends Component {
   <MDBRow>
     <MDBCol size="6">
       <MDBNav color="peach-gradient" className="font-weight-bold py-4 px-2 mb-4">
-        <MDBNavLink className="white-text" active to="#home" >Home<MDBIcon icon="home" /></MDBNavLink>
-        <MDBNavLink className="white-text" to="#container-about">About Me<MDBIcon icon="female"/></MDBNavLink>
-        <MDBNavLink className="white-text" to="#portfolio">My Portfolio<MDBIcon icon="laptop" /></MDBNavLink>
-        <MDBNavLink className="white-text" to="#contact">Contact Me<MDBIcon far icon="envelope-open"/></MDBNavLink>
+        <MDBNavLink className="white-text" MDBIcon icon="home" active to="#home" >Home</MDBNavLink>
+        <MDBNavLink className="white-text" MDBIcon icon="female" to="#container-about">About Me</MDBNavLink>
+        <MDBNavLink className="white-text" MDBIcon icon="laptop" to="#portfolio">My Portfolio</MDBNavLink>
+        <MDBNavLink className="white-text" MDBIcon far icon="envelope-open" to="#contact">Contact Me</MDBNavLink>
       </MDBNav>
       </MDBCol>
       </MDBRow>

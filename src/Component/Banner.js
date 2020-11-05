@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import mainPic from '../Component/public/images/pro4.JPG';
-import { BrowserRouter } from 'react-router-dom';
-import { MDBNav, MDBNavLink, MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import {MDBNavLink} from "mdbreact";
 
 class Banner extends Component {
 render (){
