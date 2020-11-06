@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
 import Banner from "./Component/Banner";
 import Header from './Component/Header'
 import Navbar from "./Component/Navbar";
