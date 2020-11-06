@@ -1,21 +1,28 @@
 import React from "react";
+import Banner from "./Component/Banner";
 import Header from './Component/Header'
-import Navbar from './Component/Navbar'
-import Banner from './Component/Banner'
-import About from './Component/About'
-import Portfolio from './Component/Portfolio'
-import Contact from './Component/Contact'
+import Navbar from "./Component/Navbar";
+// import About from './Component/About'
+// import Portfolio from './Component/Portfolio'
+// import Contact from './Component/Contact'
+import '@fortawesome/fontawesome-free/css/all.min.css'; 
+import 'bootstrap-css-only/css/bootstrap.min.css'; 
+import 'mdbreact/dist/css/mdb.css';
 
 
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      {/* <Header/> */}
       <hr/>
-      <Navbar/>
+      <Header/>
       <br/>
-      <Banner/> 
+      <Banner/>
+      {/* <Navbar/>
+
+      // <br/>
+       <Banner/> 
       <br/>
       <About/>
       <br/>
@@ -28,7 +35,7 @@ function App() {
       <hr/>
       <h1 id="Contactnav" className="contact">Contact Me</h1>
       <hr/>
-      <Contact/>
+      <Contact/> */}
 
     </div>
   );

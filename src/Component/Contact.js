@@ -1,8 +1,7 @@
 import React, {Component} from "react"
 import {MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
 
-class Contact extends Component {
-render(){
+function Contact() {
   return (
     <section className="contact-section my-5">
       <MDBCard>
@@ -115,7 +114,6 @@ render(){
       </MDBCard>
     </section>
   );
-  }
 }
 
-export default Contact;
+export default Contact

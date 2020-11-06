@@ -6,8 +6,7 @@ import NotePic from '../Component/public/images/NoteTaker.JPG';
 import SnapPic from '../Component/public/images/snapbudget.JPG';
 
 
-class Portfolio extends Component {
-    render(){
+function Portfolio () {
   return (
     <section className="text-center my-5">
         <h2 className="h1-responsive font-weight-bold my-5">
@@ -117,9 +116,8 @@ class Portfolio extends Component {
       </section>
   );
 }
-}
 
-export default Portfolio;
+export default Portfolio
 
 
 

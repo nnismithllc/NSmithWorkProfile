@@ -3,9 +3,8 @@ import tia from './public/images/Tia.jpg';
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer} from "mdbreact";
 
 
-class About extends Component {
+function About() {
 
-    render() {
         return (
           <MDBContainer>
             <MDBCarousel
@@ -50,7 +49,6 @@ class About extends Component {
             </MDBCarousel>
           </MDBContainer>
         );
-      }
     }
     
     export default About;

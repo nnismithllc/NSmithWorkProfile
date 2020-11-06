@@ -3,8 +3,7 @@ import {BrowserRouter} from 'react-router-dom';
 import {MDBNav, MDBNavLink, MDBContainer, MDBRow, MDBCol} from "mdbreact";
 
 
-class Navbar extends Component {
-    render (){
+function Navbar () {
         return (
             <nav className="navbar">
  <BrowserRouter>
@@ -26,7 +25,6 @@ class Navbar extends Component {
 
             </nav>
         )
-    }
 }
 export  default Navbar
   
