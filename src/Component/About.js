@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import tia from './public/images/Tia.jpg';
+import code1 from './public/images/code1.jpg'
+import mern from './public/images/mern.png'
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer} from "mdbreact";
 
 
@@ -29,7 +31,7 @@ function About() {
                   <MDBView>
                     <img
                       className="d-block w-100"
-                      src="https://www.pexels.com/photo/coding-computer-data-depth-of-field-577585/"
+                      src={code1}
                       alt="Second slide coding pic"
                     />
                     <MDBMask overlay="black-strong" />
@@ -39,7 +41,7 @@ function About() {
                   <MDBView>
                     <img
                       className="d-block w-100"
-                      src="https://medium.com/@sachinsnair03/2020-mern-stack-javascript-developer-roadmap-7072ad7952c4"
+                      src={mern}
                       alt="Third slide MERN pic"
                     />
                     <MDBMask overlay="black-slight" />

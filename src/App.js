@@ -15,25 +15,26 @@ import 'mdbreact/dist/css/mdb.css';
 function App() {
   return (
     <div className="App">
-      <Header/> 
+      <Navbar/> 
       <hr/>
       <br/>
-      <Banner/>
+      <Header/>
       <hr/>
-     <Navbar/>
       <br/>
-      <About/>
+     <Banner/>
+      <hr/>
       <br/>
       <h1 className="About Me"> About Me</h1>
+      <About/>
       <hr/>
+      <br/>
+      <h1 className="Portfolio"> My Portfolio</h1>
       <Portfolio/>
       <hr/>
-      <h1 className="Portfolio"> My Portfolio</h1>
       <br/>
-      <hr/>
       <h1 id="Contactnav" className="contact">Contact Me</h1>
-      <hr/>
       <Contact/>
+      <hr/>
 
     </div>
   );

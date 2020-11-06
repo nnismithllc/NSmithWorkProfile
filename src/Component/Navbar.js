@@ -8,7 +8,7 @@ function Navbar() {
       <nav className="navbar">
         <MDBContainer>
           <MDBRow>
-            <MDBCol size="6">
+            <MDBCol size="24">
               <MDBNav
                 color="peach-gradient"
                 className="font-weight-bold py-4 px-2 mb-4">
