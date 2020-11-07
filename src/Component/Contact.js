@@ -12,8 +12,6 @@ import {
 
 import emailjs from 'emailjs-com';
 
-
-
 // Function for Contact Page Information
 function Contact() {
   return (
@@ -21,7 +19,7 @@ function Contact() {
       <MDBCard>
         <MDBRow>
           <MDBCol lg="8">
-            <MDBCardBody className="form">
+            <MDBCardBody className="form"href={sendEmail}>
               <h3 className="mt-4">
                 <MDBIcon icon="envelope" className="pr-2" />
                 Send Me an Email:
@@ -69,7 +67,7 @@ function Contact() {
                       type="textarea"
                       id="form-contact-message"
                       label="Your message"/>
-                    <MDBBtn rounded color="blue" href="https://www.gmail.com">
+                    <MDBBtn rounded color="blue" onClick={sendEmail}>
                     <MDBIcon icon="paper-plane"/>
                   
                     </MDBBtn>
@@ -135,6 +133,19 @@ function Contact() {
     </section>
   );
 }
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
+
+
 
 // Export for Contact Page
 export default Contact;
