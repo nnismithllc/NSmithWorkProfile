@@ -1,6 +1,20 @@
-import React, {Component} from "react"
-import {MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
+// Imports from App.js Page to Run Contact Function
+import React from "react";
+import {
+  MDBRow,
+  MDBCol,
+  MDBCard,
+  MDBCardBody,
+  MDBIcon,
+  MDBBtn,
+  MDBInput,
+} from "mdbreact";
 
+import emailjs from 'emailjs-com';
+
+
+
+// Function for Contact Page Information
 function Contact() {
   return (
     <section className="contact-section my-5">
@@ -18,8 +32,7 @@ function Contact() {
                     <MDBInput
                       type="text"
                       id="form-contact-name"
-                      label="Your name"
-                    />
+                      label="Your name"/>
                   </div>
                 </MDBCol>
                 <MDBCol md="6">
@@ -27,8 +40,7 @@ function Contact() {
                     <MDBInput
                       type="text"
                       id="form-contact-email"
-                      label="Your email"
-                    />
+                      label="Your email"/>
                   </div>
                 </MDBCol>
               </MDBRow>
@@ -46,8 +58,7 @@ function Contact() {
                     <MDBInput
                       type="text"
                       id="form-contact-company"
-                      label="Your company"
-                    />
+                      label="Your company"/>
                   </div>
                 </MDBCol>
               </MDBRow>
@@ -57,10 +68,10 @@ function Contact() {
                     <MDBInput
                       type="textarea"
                       id="form-contact-message"
-                      label="Your message"
-                    />
-                    <MDBBtn rounded color="blue">
-                      <MDBIcon icon="paper-plane" />
+                      label="Your message"/>
+                    <MDBBtn rounded color="blue" href="https://www.gmail.com">
+                    <MDBIcon icon="paper-plane"/>
+                  
                     </MDBBtn>
                   </div>
                 </MDBCol>
@@ -79,7 +90,8 @@ function Contact() {
                 </li>
                 <li>
                   <p>
-                    <MDBIcon icon="phone" className="pr-2" />313-457-3323
+                    <MDBIcon icon="phone" className="pr-2" />
+                    313-457-3323
                   </p>
                 </li>
                 <li>
@@ -92,17 +104,26 @@ function Contact() {
               <hr className="hr-light my-4" />
               <ul className="list-inline text-center list-unstyled">
                 <li className="list-inline-item">
-                  <a href="https://www.linkedin.com/in/nintia-smith/" className="p-2 fa-lg w-ic">
+                  <a
+                    href="https://www.linkedin.com/in/nintia-smith/"
+                    className="p-2 fa-lg w-ic"
+                  >
                     <MDBIcon fab icon="linkedin" />
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="https://github.com/nnismithllc" className="p-2 fa-lg w-ic">
-                  <MDBIcon fab icon="github-square" />
+                  <a
+                    href="https://github.com/nnismithllc"
+                    className="p-2 fa-lg w-ic"
+                  >
+                    <MDBIcon fab icon="github-square" />
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="mailto:nnismithllc@gmail.com" className="p-2 fa-lg w-ic">
+                  <a
+                    href="mailto:nnismithllc@gmail.com"
+                    className="p-2 fa-lg w-ic"
+                  >
                     <MDBIcon fab icon="envelope-open" />
                   </a>
                 </li>
@@ -115,4 +136,5 @@ function Contact() {
   );
 }
 
-export default Contact
+// Export for Contact Page
+export default Contact;
