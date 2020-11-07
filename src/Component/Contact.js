@@ -38,8 +38,7 @@ function Contact() {
                     <MDBInput
                       type="text"
                       id="form-contact-phone"
-                      label="Your phone"
-                    />
+                      label="Your phone"/>
                   </div>
                 </MDBCol>
                 <MDBCol md="6">
@@ -69,7 +68,7 @@ function Contact() {
             </MDBCardBody>
           </MDBCol>
           <MDBCol lg="4">
-            <MDBCardBody className="contact text-center h-100 white-text">
+            <MDBCardBody className="contact text-center h-100 black-text">
               <h3 className="my-4 pb-2">Contact information</h3>
               <ul className="text-lg-left list-unstyled ml-4">
                 <li>

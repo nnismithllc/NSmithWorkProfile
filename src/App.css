@@ -1,5 +1,16 @@
+body {
+  height: 100%;
+  width: 100%;
+background-image: url('../src/Component/public/images/purple.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
 .App {
   text-align: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -15,13 +26,13 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(231, 80, 80);
 }
 
 .App-link {
@@ -35,4 +46,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.d-block {
+  
+  position:exact;
+  width: 20%;
+  height: 20%;
+}
+
+.navbar {
+  align-content: center;
+
+}
+#pr-2 {
+  align-content: center;
+  color: whitesmoke;
+}
+h1{
+  color: rgb(255, 238, 7);
+}
+
+.MDBNav {
+align-items: center;
+}
+.MDBCarousel {
+  width: 30px;
+  height: 50px;
+}
+p{
+color:rgb(223, 213, 213);
+font-weight: bold;
+}
+
+h4{
+  color: rgb(237, 241, 12);
+}
+
+h2{
+  color: whitesmoke;
 }

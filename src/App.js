@@ -9,11 +9,14 @@ import Contact from './Component/Contact'
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
 import 'bootstrap-css-only/css/bootstrap.min.css'; 
 import 'mdbreact/dist/css/mdb.css';
-
+import '../src/App.css';
 
 
 function App() {
+  
   return (
+    <BrowserRouter>
+    
     <div className="App">
       <Navbar/> 
       <hr/>
@@ -35,8 +38,9 @@ function App() {
       <h1 id="Contactnav" className="contact">Contact Me</h1>
       <Contact/>
       <hr/>
-
     </div>
+    
+    </BrowserRouter>
   );
 }
 

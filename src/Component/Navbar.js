@@ -1,55 +1,46 @@
-import React, { Component } from "react";
+import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import { MDBNav, MDBNavLink, MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBNav} from "mdbreact";
+import { NavHashLink } from 'react-router-hash-link';
 
 function Navbar() {
   return (
+
     <BrowserRouter>
-      <nav className="navbar">
-        <MDBContainer>
-          <MDBRow>
-            <MDBCol size="24">
               <MDBNav
-                color="peach-gradient"
+                color="purple"
                 className="font-weight-bold py-4 px-2 mb-4">
-                <MDBNavLink
-                  className="white-text"
+                <NavHashLink
+                  className="yellow-text"
                   MDBIcon
                   icon="home"
                   active
-                  to="#home">
-                  Home
-                </MDBNavLink>
-                <MDBNavLink
-                  className="white-text"
+                  to ="#home">
+                   Home
+                </NavHashLink>
+                <NavHashLink
+                  className="blue-text"
                   MDBIcon
                   icon="female"
-                  to="#container-about"
-                >
+                  to="#About">
                   About Me
-                </MDBNavLink>
-                <MDBNavLink
-                  className="white-text"
+                </NavHashLink>
+                <NavHashLink
+                 className="green-text"
                   MDBIcon
                   icon="laptop"
-                  to="#portfolio"
-                >
+                  to="#Portfolio">
                   My Portfolio
-                </MDBNavLink>
-                <MDBNavLink
-                  className="white-text"
+                </NavHashLink>
+                <NavHashLink
+                  className="orange-text"
                   MDBIcon
                   far
                   icon="envelope-open"
-                  to="#contact"
-                >
+                  to="#Contact">
                   Contact Me
-                </MDBNavLink>
+                </NavHashLink>
               </MDBNav>
-            </MDBCol>
-          </MDBRow>
-        </MDBContainer>
-      </nav>
     </BrowserRouter>
   );
 }
