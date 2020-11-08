@@ -1,5 +1,6 @@
 {
   "name": "nsmithworkprofile",
+  "homepage": "https://myusername.github.io/NSmithWorkProfile",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,8 @@
     "@testing-library/user-event": "^12.2.0",
     "bootstrap": "^4.5.3",
     "emailjs-com": "^2.6.3",
+    "env-cmd": "^10.1.0",
+    "gh-pages": "^3.1.0",
     "mdbreact": "^4.27.0",
     "react": "^16.14.0",
     "react-dom": "^17.0.1",
@@ -17,10 +20,13 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:staging": "env-cmd -f .env.staging npm run build"
   },
   "eslintConfig": {
     "extends": [
