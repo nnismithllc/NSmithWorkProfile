@@ -27,19 +27,18 @@ function App() {
      <Banner/>
       <hr/>
       <br/>
-      <h1 className="About Me"> About Me</h1>
+      <h1 className="About Me" id="About"> About Me</h1>
       <About/>
       <hr/>
       <br/>
-      <h1 className="Portfolio"> My Portfolio</h1>
+      <h1 className="Portfolio" id="Portfolio"> My Portfolio</h1>
       <Portfolio/>
       <hr/>
       <br/>
-      <h1 id="Contactnav" className="contact">Contact Me</h1>
+      <h1 id="Contact" className="contact"> Contact Me</h1>
       <Contact/>
       <hr/>
     </div>
-    
     </BrowserRouter>
   );
 }
