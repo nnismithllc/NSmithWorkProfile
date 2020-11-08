@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/NSmithWorkProfile/static/css/main.f84b0795.chunk.css",
+    "main.js": "/NSmithWorkProfile/static/js/main.4961cc3b.chunk.js",
+    "main.js.map": "/NSmithWorkProfile/static/js/main.4961cc3b.chunk.js.map",
+    "runtime-main.js": "/NSmithWorkProfile/static/js/runtime-main.e687d80b.js",
+    "runtime-main.js.map": "/NSmithWorkProfile/static/js/runtime-main.e687d80b.js.map",
+    "static/css/2.c610ed56.chunk.css": "/NSmithWorkProfile/static/css/2.c610ed56.chunk.css",
+    "static/js/2.80c1d0db.chunk.js": "/NSmithWorkProfile/static/js/2.80c1d0db.chunk.js",
+    "static/js/2.80c1d0db.chunk.js.map": "/NSmithWorkProfile/static/js/2.80c1d0db.chunk.js.map",
+    "index.html": "/NSmithWorkProfile/index.html",
+    "static/css/2.c610ed56.chunk.css.map": "/NSmithWorkProfile/static/css/2.c610ed56.chunk.css.map",
+    "static/css/main.f84b0795.chunk.css.map": "/NSmithWorkProfile/static/css/main.f84b0795.chunk.css.map",
+    "static/js/2.80c1d0db.chunk.js.LICENSE.txt": "/NSmithWorkProfile/static/js/2.80c1d0db.chunk.js.LICENSE.txt",
+    "static/media/Burger.602e9a0a.JPG": "/NSmithWorkProfile/static/media/Burger.602e9a0a.JPG",
+    "static/media/LandDegrees.a1f82e29.JPG": "/NSmithWorkProfile/static/media/LandDegrees.a1f82e29.JPG",
+    "static/media/NoteTaker.19084530.JPG": "/NSmithWorkProfile/static/media/NoteTaker.19084530.JPG",
+    "static/media/Tia.294a5312.jpg": "/NSmithWorkProfile/static/media/Tia.294a5312.jpg",
+    "static/media/mdb.css": "/NSmithWorkProfile/static/media/arrow_right.0897f985.svg",
+    "static/media/code1.3150c426.jpg": "/NSmithWorkProfile/static/media/code1.3150c426.jpg",
+    "static/media/all.min.css": "/NSmithWorkProfile/static/media/fa-solid-900.46fdbd2d.woff",
+    "static/media/mern.958b4f44.png": "/NSmithWorkProfile/static/media/mern.958b4f44.png",
+    "static/media/pro5.6a6e0959.jpg": "/NSmithWorkProfile/static/media/pro5.6a6e0959.jpg",
+    "static/media/App.css": "/NSmithWorkProfile/static/media/purple.f2ed4f8e.jpg",
+    "static/media/snapbudget.762fab1c.JPG": "/NSmithWorkProfile/static/media/snapbudget.762fab1c.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e687d80b.js",
+    "static/css/2.c610ed56.chunk.css",
+    "static/js/2.80c1d0db.chunk.js",
+    "static/css/main.f84b0795.chunk.css",
+    "static/js/main.4961cc3b.chunk.js"
+  ]
+}
