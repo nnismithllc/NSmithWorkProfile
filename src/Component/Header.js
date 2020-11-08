@@ -1,6 +1,8 @@
-import React,{Component} from "react";
+// Import Details for Header
+import React from "react";
 import './css/Profile.css';
 
+// Head Function Information
 function Header () {
 
     return (
@@ -10,5 +12,5 @@ function Header () {
     )
 
 }
-
+// Export Details for Header
 export default Header

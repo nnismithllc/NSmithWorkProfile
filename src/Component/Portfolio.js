@@ -1,3 +1,4 @@
+// Imports for Portfolio
 import React from "react";
 import {
   MDBRow,
@@ -13,6 +14,7 @@ import LandPic from "../Component/public/images/LandDegrees.JPG";
 import NotePic from "../Component/public/images/NoteTaker.JPG";
 import SnapPic from "../Component/public/images/snapbudget.JPG";
 
+// Function Call and Return for Portfolio
 function Portfolio() {
   return (
     <section className="text-center my-5">
@@ -148,4 +150,5 @@ function Portfolio() {
   );
 }
 
+// Export Details for Portfolio
 export default Portfolio;

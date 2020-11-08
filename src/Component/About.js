@@ -12,13 +12,11 @@ import {
   MDBContainer,
 } from "mdbreact";
 
-
 // About Page Information
 function About() {
   return (
     <MDBContainer>
       <p id="info">
-  
         Beginning my coding career has been one of the most exhilarating
         experience of my work life. The challenge of building dynamic visuals
         from mock flow tables to user interactive structures is thrilling to me.

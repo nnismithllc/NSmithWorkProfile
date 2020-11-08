@@ -1,3 +1,4 @@
+// Imports for App and all Components
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import Banner from "./Component/Banner";
@@ -11,12 +12,11 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 import '../src/App.css';
 
-
+// Function Call and Return for App
 function App() {
-  
   return (
+
     <BrowserRouter>
-    
     <div className="App">
       <Navbar/> 
       <hr/>
@@ -43,4 +43,5 @@ function App() {
   );
 }
 
+// Export Details for App
 export default App;
