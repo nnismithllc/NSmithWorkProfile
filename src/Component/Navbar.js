@@ -1,8 +1,9 @@
 // Imports for Navbar
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import { MDBNav } from "mdbreact";
+import { MDBNav, MDBIcon} from "mdbreact";
 import { NavHashLink } from "react-router-hash-link";
+
 
 // Navbar Function Call
 function Navbar() {
@@ -11,32 +12,36 @@ function Navbar() {
       <MDBNav color="purple" className="font-weight-bold py-4 px-4 mb-6">
         <NavHashLink
           className="yellow-text"
-          MDBIcon
-          icon="home"
-          active
+        
           to="#home"> 
+          <MDBIcon
+          icon="home"></MDBIcon>
           Home
         </NavHashLink>
 
         <NavHashLink 
-        className="blue-text" 
-        MDBIcon icon="female" 
+        className="blue-text"
         to="#About">
+          <MDBIcon
+          icon="female"></MDBIcon>
           About Me
         </NavHashLink>
        
         <NavHashLink
           className="green-text"
-          MDBIcon
-          icon="laptop"
+          
           to="#Portfolio">
+          <MDBIcon
+          icon="laptop"></MDBIcon>
           My Portfolio
         </NavHashLink>
 
         <NavHashLink
           className="orange-text"
-          MDBIcon icon="envelope-open"
+        
           to="#Contact">
+             <MDBIcon
+          icon="envelope-open"></MDBIcon>
           Contact Me
         </NavHashLink>
         

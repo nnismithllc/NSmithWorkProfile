@@ -1,6 +1,7 @@
 // Imports from App.js Page to Run Contact Function
 import React from "react";
 import emailjs from "emailjs-com";
+import{ init } from 'emailjs-com';
 import "./Contact.js";
 import {
   MDBRow,
@@ -16,6 +17,7 @@ import {
 export default function Contact() {
   // Send Function
   function sendEmail(e) {
+    console.log ('Im an Email')
     e.preventDefault();
 
     emailjs
@@ -24,6 +26,7 @@ export default function Contact() {
         "template_8xf3fh5",
         e.target,
         "user_C7KCkTN3yY1VzbTJMeAJg"
+        
       )
       .then(
         (result) => {
@@ -39,7 +42,7 @@ export default function Contact() {
   return (
     <div>
       <div className="container">
-        <form onClick={sendEmail} id="form">
+        <form onSubmit={sendEmail} id="form">
           <section className="contact-section my-5">
             <MDBCard>
               <MDBRow>
@@ -97,15 +100,15 @@ export default function Contact() {
                             id="form-contact-message"
                             label="Your message"
                           />
-                          <button
-                            onClick={sendEmail}
+                          <MDBBtn
+                           type='submit'
                             rounded
-                            color="blue"
-                            id="form"
-                          >
+                            color="blue">
                             <MDBIcon icon="paper-plane" />
-                          </button>
+                          </MDBBtn>
+                        
                         </div>
+
                       </MDBCol>
                     </MDBRow>
                   </MDBCardBody>
@@ -155,3 +158,5 @@ export default function Contact() {
     </div>
   );
 }
+
+init("user_C7KCkTN3yY1VzbTJMeAJg")
