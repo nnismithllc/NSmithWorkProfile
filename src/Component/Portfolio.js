@@ -27,9 +27,6 @@ function Portfolio() {
         <MDBCol md="6" xl="5" className="mb-4">
           <MDBView className="overlay rounded z-depth-2" waves>
             <img src={LandPic} alt="LandDegree" className="img-fluid" />
-            <a href="https://nnismithllc.github.io/LandDegrees/">
-              <MDBMask overlay="white-slight" />
-            </a>
           </MDBView>
           <MDBCardBody className="pb-0">
             <a
@@ -38,7 +35,7 @@ function Portfolio() {
             >
               <h5 className="font-weight-bold mt-2 mb-3">
                 <MDBIcon icon="umbrella-beach" className="pr-2" />
-                LandDegrees
+                LandDegrees GitHub
               </h5>
             </a>
             <h4 className="font-weight-bold mb-3">
@@ -51,16 +48,14 @@ function Portfolio() {
               and state.
             </p>
             <MDBBtn color="success" rounded>
-              GitHub Link
+            <a href="https://nnismithllc.github.io/LandDegrees/"
+              className="button1" >Link</a>
             </MDBBtn>
           </MDBCardBody>
-        </MDBCol>
+        </MDBCol> 
         <MDBCol md="6" xl="5" className="mb-4">
           <MDBView className="overlay rounded z-depth-2" waves>
             <img src={BurgerPic} alt="Burger" className="img-fluid" />
-            <a href="https://burgermebabydelight.herokuapp.com/">
-              <MDBMask overlay="white-slight" />
-            </a>
           </MDBView>
           <MDBCardBody className="pb-0">
             <a
@@ -69,7 +64,7 @@ function Portfolio() {
             >
               <h5 className="font-weight-bold mt-2 mb-3">
                 <MDBIcon icon="hamburger" className="pr-2" />
-                EatDaBurger
+                EatDaBurger GitHub
               </h5>
             </a>
             <h4 className="font-weight-bold mb-3">Let's Order a Burger</h4>
@@ -80,16 +75,14 @@ function Portfolio() {
               method to interact with the data platform.
             </p>
             <MDBBtn color="success" rounded>
-              GitHub Link
+            <a href="https://burgermebabydelight.herokuapp.com/"
+              className="button1" >Link</a>
             </MDBBtn>
           </MDBCardBody>
         </MDBCol>
         <MDBCol md="6" xl="5" className="mb-4">
           <MDBView className="overlay rounded z-depth-2" waves>
             <img src={NotePic} alt="Note Taker" className="img-fluid" />
-            <a href="https://notetak3r.herokuapp.com/">
-              <MDBMask overlay="white-slight" />
-            </a>
           </MDBView>
           <MDBCardBody className="pb-0">
             <a
@@ -98,7 +91,7 @@ function Portfolio() {
             >
               <h5 className="font-weight-bold mt-2 mb-3">
                 <MDBIcon icon="sticky-note" className="pr-2" />
-                Note Taker
+                Note Taker GitHub
               </h5>
             </a>
             <h4 className="font-weight-bold mb-3">
@@ -112,22 +105,20 @@ function Portfolio() {
               entries in order of submission.
             </p>
             <MDBBtn color="success" rounded>
-              GitHub Link
+            <a href="https://notetak3r.herokuapp.com/"
+              className="button1" >Link</a>
             </MDBBtn>
           </MDBCardBody>
         </MDBCol>
         <MDBCol md="6" xl="5" className="mb-4">
           <MDBView className="overlay rounded z-depth-2" waves>
             <img src={SnapPic} alt="SnapBudget" className="img-fluid" />
-            <a href="https://mysnapbudget.herokuapp.com/">
-              <MDBMask overlay="white-slight" />
-            </a>
           </MDBView>
           <MDBCardBody className="pb-0">
             <a href="https://github.com/WD40JS/project_2" className="cyan-text">
               <h5 className="font-weight-bold mt-2 mb-3">
                 <MDBIcon icon="camera-retro" className="pr-2" />
-                Snap Budget
+                Snap Budget GitHub
               </h5>
             </a>
             <h4 className="font-weight-bold mb-3">
@@ -141,7 +132,8 @@ function Portfolio() {
               marketing trend for each customer spending or gain entry.
             </p>
             <MDBBtn color="success" rounded>
-              GitHub Link
+            <a href="https://mysnapbudget.herokuapp.com/"
+              className="button1" >Link</a>
             </MDBBtn>
           </MDBCardBody>
         </MDBCol>
